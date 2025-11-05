@@ -1,0 +1,37 @@
+<!-- aici incepem sa lucram pt formular -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formular</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Formular de înregistrare bal mascat</h1>
+<div class="center">  
+<form action="http://localhost:3000/formular" method="post">
+<label for="email" class="label">Email:</label>
+<input type="email" id="email" name="email" class="input" placeholder="email@gmail.com"><br><br>
+<label for="nume" class="label">Nume:</label>
+<input type="text" id="nume" name="nume" class="input" placeholder="Andrei"><br><br>
+<label for="prenume" class="label">Prenume:</label>
+<input type="text" id="prenume" name="prenume" class="input" placeholder="Popescu"><br><br>
+<label for="facultate" class="label">Facultate:</label>
+<input type="text" id="facultate" name="facultate" class="input" placeholder="Informatica Economică"><br><br>
+<label for="serie" class="label">Serie:</label>
+<input type="text" id="serie" name="serie" class="input" placeholder="A"><br><br>
+<label for="an" class="label">An de studiu:</label>
+<br>
+<select id="an" name="an" class="input">
+  <option value="I">I</option>
+  <option value="II">II</option>
+  <option value="III">III</option>
+</select>
+<label for="grupa" class="label">Grupa:</label>
+<input type="number" id="grupa" name="grupa" class="input" placeholder="1024"><br><br>
+<label for="telefon" class="label">Telefon:</label>
+<input type="number" id="telefon" name="telefon" class="input" placeholder="0712345678"><br><br>
+<button type="submit" >Trimite</button>
+ </form>
+</div>
+</body>
+</html>
